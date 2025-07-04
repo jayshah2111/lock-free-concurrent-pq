@@ -1,4 +1,3 @@
-// lockfree_pq.hpp
 #pragma once
 
 #include <atomic>

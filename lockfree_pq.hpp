@@ -1,4 +1,3 @@
-```cpp
 // lockfree_pq.hpp
 #pragma once
 
@@ -79,7 +78,7 @@ public:
 };
 
 // -----------------------------------------------------------------------------
-// Lock-Free Concurrent Min-Priority Queue (Skiplist-based)
+// Lock-Free Concurrent Min-Priority Queue
 // -----------------------------------------------------------------------------
 template<typename T>
 class LockFreePQ {
@@ -276,4 +275,3 @@ template<typename T>
 thread_local std::mt19937_64 LockFreePQ<T>::rng_;
 
 } // namespace lf
-```
